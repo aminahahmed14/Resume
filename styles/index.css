@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 256px;
+    height: 256px;
+    object-fit: cover;
+}
+
+h1 {
+    color:rgb(188, 239, 255);
+    background-color: #00000070;
+    position: sticky;
+    top: 4px;
+}
+
+nav {
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    all: unset;
+    border: 1px solid red;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background-color: burlywood;
+}
