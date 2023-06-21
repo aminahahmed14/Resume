@@ -3,37 +3,83 @@
     <head>
         <title>Aminah's Resume</title>
 
+        <link rel="stylesheet" href="../styles/home.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300&family=Work+Sans&display=swap" rel="stylesheet">
     </head>
 
     <body>
         <header>
-            <nav>
-              <a href ="./home.html">Home</a>
-              <a href ="./experience.html">Professional Experience</a>
-              <a href="./skills.html">Skills</a>
-              <a href="./education.html">Education</a>
-            </nav>
+            <div class="navbar">
+                <nav>
+                    <a href ="./home.html">Home</a>
+                    <a href ="./experience.html">Experiences</a>
+                    <a href="./skills.html">Skills</a>
+                    <a href="./education.html">Education</a>
+                </nav>
+            </div>
         </header>
-        <hr />
 
         <main>
-            <section>
-                <img src = "profile.png" width = "256" height = "256">
-                <h1>Hi! I'm Aminah</h1>
-                <p>Professionalism and strategic thinking as the core of myself and how I describe an ideal employee I want to be. <br /><br />
-                A full stack web developer.<br />
-                Alumna of IIUM in English Language and Literature with minor in Business Administration. <br />
-                I believe knowledge is unlimited and learning is a big part of our lives. <br />
-                Knowledge is power and it makes the world a better place.
+            <div id="intro">
+                <section id="hello">
+                        <img src="wave.png" id="salam"/>
+                        Assalamualaikum!
+                </section>
+
+            </div>
+
+            <div>
+                <section>
+                    <h1>Hi! I'm Aminah, <br />
+                    A Fullstack Web Developer <br />
+                    and a Mom</h1>
+                </section>
+
+                <div>
+                    <section id="circle1"> 
+                    <img src = "profile.png" id="minah">
+                    <div id="contact">
+                        <section>
+                            <button>
+                                <img src="email.png" id="email">
+                                <!-- <a href="mailto:aminahahmed14@gmail.com"> </a> -->
+                            </button>
+                        </section>
+
+                        <section>
+                            <button>
+                                <img src="phone.png" id="phone">
+                            </button>
+                        </section>
+                    </div>
+                    </section>
+                </div>
+
+                
+            </div>
+
+
+                    <!-- <p>Professionalism and strategic thinking as the core of myself and how I describe an ideal employee I want to be. <br /><br />
+                    A full stack web developer.<br />
+                    Alumna of IIUM in English Language and Literature with minor in Business Administration. <br />
+                    I believe knowledge is unlimited and learning is a big part of our lives. <br />
+                    Knowledge is power and it makes the world a better place.
                 </p>
-            </section> 
+                </section> 
+            </div> -->
         </main> 
     </body>
 
     <footer>
         <h3>Contact me!</h3>
         <ul>
-            <li><a href = "mailtp:aminahahmed14@gmail.com">Email</a></li>
+            <li><a href = "mailto:aminahahmed14@gmail.com">Email</a></li>
             <li><a href = "tel:+60192047695">Phone</a></li>
             <li><a href = "https://www.linkedin.com/in/aminahahmed14/">LinkedIn</a></li>
         </ul>
